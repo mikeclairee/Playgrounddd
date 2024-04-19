@@ -1,0 +1,90 @@
+
+  /* Reset some default styles for consistency */
+    body, h1, h2, h3, p, ul, li {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: wheat;
+    }
+    
+    header {
+        background-color: whitesmoke;
+        color: black;
+        padding: 16px;
+        font-family: tahoma;
+    }
+    
+    header h1 {
+        font-size: 32px;
+        margin-bottom: 16px;
+        color: black;
+    }
+    
+    nav ul {
+        list-style: none;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        margin-right: 16px;
+        
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        padding: 0.5rem;
+        color: black;
+        font-weight: bold;
+    }
+
+    nav ul li a:hover{
+        color: black;
+        border: 2px solid;
+        background-color: whitesmoke;
+    }
+    
+    main {
+        padding: 32px;
+    }
+    
+    .tourist-spots {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+    }
+    
+    .spot {
+        text-align: center;
+    }
+    
+    .spot img {
+        max-width: 100%;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 2px solid black;
+    }
+    
+    .spot h2 {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .about {
+        text-align: center;
+        padding: 64px 0;
+        background-color: #f0f0f0;
+    }
+    
+    .about h2 {
+        font-size: 2.5rem;
+        margin-bottom: 16px;
+    }
+    
+    .about p {
+        font-size: 1.2rem;
+        margin-bottom: 16px;
+    }
